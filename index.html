@@ -99,9 +99,13 @@
                     <a href="#dlaczego" class="hover:text-indigo-400 transition-colors px-1">Dlaczego warto?</a>
                     
                     <!-- Language Switcher -->
-                    <div class="flex items-center gap-x-1 pl-4 border-l border-zinc-700 ml-2 text-xs">
-                        <a href="index.html" class="px-2 py-1 rounded bg-white text-zinc-950 font-semibold">PL</a>
-                        <a href="index-en.html" class="px-2 py-1 rounded hover:bg-zinc-800 transition-colors">EN</a>
+                    <div class="flex items-center gap-x-1 pl-4 border-l border-zinc-700 ml-2 text-xs font-medium">
+                        <a href="index.html" class="px-2.5 py-1 rounded bg-white text-zinc-950 flex items-center gap-x-1.5">
+                            <span>🇵🇱</span> <span class="font-semibold">PL</span>
+                        </a>
+                        <a href="index-en.html" class="px-2.5 py-1 rounded hover:bg-zinc-800 transition-colors flex items-center gap-x-1.5">
+                            <span>🇬🇧</span> <span>EN</span>
+                        </a>
                     </div>
                 </div>
 
@@ -301,11 +305,19 @@
 
             </div>
             
-            <div class="mt-10 flex justify-center">
+            <div class="mt-10 flex flex-col sm:flex-row justify-center items-center gap-4">
+                <!-- Email -->
                 <a href="mailto:grzesuk79@gmail.com" 
                    class="inline-flex items-center gap-x-3 px-6 py-3.5 bg-zinc-900 hover:bg-zinc-800 border border-zinc-700 rounded-2xl text-base transition-all active:scale-[0.985]">
                     <i class="fa-solid fa-envelope text-emerald-400"></i>
-                    <span class="font-medium">Masz pytania? Napisz na <span class="text-white font-semibold">grzesuk79@gmail.com</span></span>
+                    <span class="font-medium">Napisz na <span class="text-white font-semibold">grzesuk79@gmail.com</span></span>
+                </a>
+
+                <!-- WhatsApp -->
+                <a href="https://wa.me/447850349352" target="_blank"
+                   class="inline-flex items-center gap-x-3 px-6 py-3.5 bg-[#25D366] hover:bg-[#128C7E] text-white font-medium rounded-2xl text-base transition-all active:scale-[0.985]">
+                    <i class="fa-brands fa-whatsapp text-xl"></i>
+                    <span>WhatsApp: <span class="font-semibold">+44 7850 349352</span></span>
                 </a>
             </div>
         </div>
